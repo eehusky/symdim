@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='symdim',
-      version='0.1',
+      version='0.2',
       description='An algebraic manipulation and dimensional analysis tool using SymPy and Astropy.units',
       url='http://github.com/AndrewChap/symdim',
       author='Andrew Chap',

@@ -270,7 +270,7 @@ class SymDim:
         if self.unit is None:
             latex_rep.append('\\mathrm{unitless}')
         else:
-            if self.unit == u.dimensionless_unscaled:
+            if self.unit.unit == u.dimensionless_unscaled:
                 latex_rep.append('\\mathrm{dimensionless}')
             else:
                 latex_rep.append(self.unit.decompose().unit._repr_latex_().replace('$',''))
